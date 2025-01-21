@@ -1,0 +1,40 @@
+2025-01-21 19:38:42 - INFO --> Log file created for user: suraj_satpute
+2025-01-21 19:38:42 - INFO --> Validated Full Name: Suraj  Satpute
+2025-01-21 19:38:42 - DEBUG --> Starting validate...
+2025-01-21 19:38:51 - INFO --> Valid input for Mobile No: 9503392651
+2025-01-21 19:38:51 - DEBUG --> validate Completed.
+2025-01-21 19:38:51 - DEBUG --> Starting validate...
+2025-01-21 19:39:05 - INFO --> Valid gender: Male
+2025-01-21 19:39:05 - DEBUG --> validate Completed.
+2025-01-21 19:39:05 - DEBUG --> Starting validate...
+2025-01-21 19:39:10 - INFO --> Valid input for Email: suraj@123.com
+2025-01-21 19:39:10 - DEBUG --> validate Completed.
+2025-01-21 19:39:10 - DEBUG --> Starting validate...
+2025-01-21 19:39:14 - INFO --> Valid input for Pancard: MPPPS0793N
+2025-01-21 19:39:14 - DEBUG --> validate Completed.
+2025-01-21 19:39:14 - DEBUG --> Starting validate...
+2025-01-21 19:39:17 - INFO --> Valid input for Date of Birth: 2001-Jul-04
+2025-01-21 19:39:17 - DEBUG --> validate Completed.
+2025-01-21 19:39:17 - DEBUG --> Starting validate...
+2025-01-21 19:39:27 - INFO --> Valid input for Address: Sangamner, Maharashtra - 422605
+2025-01-21 19:39:27 - DEBUG --> validate Completed.
+2025-01-21 19:39:27 - DEBUG --> Starting validate...
+2025-01-21 19:39:35 - INFO --> Valid input for Password: Suraj@123
+2025-01-21 19:39:35 - DEBUG --> validate Completed.
+2025-01-21 19:39:35 - DEBUG --> Starting calculate_age...
+2025-01-21 19:39:35 - INFO --> Calculated age: 23
+2025-01-21 19:39:35 - DEBUG --> calculate_age Completed.
+2025-01-21 19:39:35 - INFO --> User registration completed.
+2025-01-21 19:39:35 - DEBUG --> Starting display...
+2025-01-21 19:39:35 - DEBUG --> display Completed.
+2025-01-21 19:39:35 - INFO --> Log file created for user: Suraj_Satpute
+2025-01-21 19:39:35 - DEBUG --> Starting login...
+2025-01-21 19:39:38 - INFO --> Valid input entered: 9503392651
+2025-01-21 19:39:42 - INFO --> Successfully Logged-In: 9503392651
+2025-01-21 19:39:42 - DEBUG --> login Completed.
+2025-01-21 19:39:42 - DEBUG --> Starting bookTicket...
+2025-01-21 19:39:49 - INFO --> Ticket booked: Sangamner to Nashik
+2025-01-21 19:39:49 - DEBUG --> bookTicket Completed.
+2025-01-21 19:39:49 - DEBUG --> Starting logout...
+2025-01-21 19:39:49 - INFO --> suraj@123.com log out successfully!
+2025-01-21 19:39:49 - DEBUG --> logout Completed.
