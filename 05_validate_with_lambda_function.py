@@ -78,12 +78,12 @@ def validate(takeinput, check, optional=False):
 
         elif check == "address":
             address_function = lambda x: re.match(
-                r"^[A-z0-9_\s%+-]+, [A-z0-9_\s%+-]+, [\w\s.-]+, [\w\s.-]+- \d{6}$", x
+                r"^[A-z0-9_\s%+-]+, [\w\s.-]+- \d{6}$", x
             )
             if address_function(value):
                 return value.title()
             else:
-                error = "Please follow the format: Flat No 123, XYZ Tower, Main Street, Mumbai - 123456.\n "
+                error = "Please follow the format: City, State - 123456.\n "
 
         elif check == "pancard":
             pancard_function = (
@@ -121,7 +121,7 @@ gender = validate("Enter your Gender:", "gender")
 email = validate("Enter your email:", "email")
 pancard = validate("Enter your Pancard:", "pancard")
 dob = validate("Enter your DOB:", "dob")
-address = validate("Enter your address:", "address")
+address = validate("Enter your address (City, State - 123456):", "address")
 password = validate("Enter your password:", "password")
 
 
@@ -135,4 +135,23 @@ if datetime.now().month < dob1.month or (
 # print('Age: ',age)
 
 fullname = f"{firstname} {middlename} {lastname}"
+
 print("\nCustomer Registered sucessfully!")
+
+
+print("\nCustomer Details:\n")
+
+dict1 = {
+    "name": fullname,
+    "Mobile No": mobno,
+    "Gender": gender,
+    "Email:": email,
+    "Pancard": pancard,
+    "DOB": dob,
+    "Age": age,
+    "Address": address,
+    "Password": password,
+}
+
+for i in dict1:
+    print(f"{i} : {dict1[i]}")
