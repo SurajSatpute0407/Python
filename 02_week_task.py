@@ -10,7 +10,7 @@ try:
     start_date = datetime.strptime(date1, "%Y-%m-%d")
     end_date = datetime.strptime(date2, "%Y-%m-%d")
     if start_date > end_date:
-        print("Start Date should be less than End date.")
+        print("Start Date should be less than End date.\n")
     else:
         days_diff = (end_date - start_date).days
         for i in range(days_diff + 1):
@@ -26,7 +26,11 @@ try:
                     f"{current_date.strftime('%Y-%m-%d')} because of {current_date.strftime('%A')} task not assigned."
                 )
 
-        print(dict(zip(all_days, all_task)))
+        dict1 = dict(zip(all_days, all_task))
 
 except ValueError:
     print("Date format is not correct")
+
+
+for key, value in dict1.items():
+    print(f'{key}: {value}')
