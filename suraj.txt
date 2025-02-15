@@ -1,0 +1,10 @@
+Python is a versatile, high-level programming language known for its simplicity and readability, 
+making it an excellent choice for beginners and experienced developers alike.
+Designed by Guido van Rossum and first released in 1991, Python emphasizes code readability through 
+its use of indentation and clear syntax, which helps developers write clean and efficient code. 
+Python supports multiple programming paradigms, including object-oriented, procedural, and functional 
+programming, making it highly flexible. It has a vast ecosystem of libraries and frameworks, allowing it to 
+be used in diverse fields such as web development, data analysis, machine learning, artificial intelligence, 
+automation, and more. With its active community
+and constant updates, Python remains one of the most popular and widely-used programming languages today.Name : Suraj Marks : 85 Mobile : 0987654321
+Name : asdsa Marks : 454 Mobile : 1111122222
